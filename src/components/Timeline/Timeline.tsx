@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC } from 'react';
 import {
   Container,
   TimeLine,
@@ -7,7 +7,7 @@ import {
   Description,
   Small,
   Technologies,
-} from "./TimelineStyles";
+} from './TimelineStyles';
 
 const Timeline: FC = () => {
   return (

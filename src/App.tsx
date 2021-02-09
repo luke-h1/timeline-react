@@ -1,4 +1,3 @@
-/* eslint-disable */
 import Timeline from './components/Timeline/Timeline';
 import { GlobalStyle } from './styles/GlobalStyles';
 

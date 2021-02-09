@@ -33,22 +33,8 @@
     "jsx-a11y/anchor-has-content": "off",
     "import/prefer-default-export": "off",
     "react/no-unescaped-entities": "off"
-  },
 
-  "globals": {
-    "React": "writable"
+
   },
-  "ignorePatterns": ["node_modules/", ".next/"],
-  "settings": {
-    "import/resolver": {
-      "alias": [
-        ["@components", "./components"],
-        ["@pages", "./pages"],
-        ["@tests", "./__tests__"],
-        ["@icons", "./Icons"],
-        ["@lib", "./lib"],
-        ["@styles", "./styles"]
-      ]
-    }
-  }
+  "ignorePatterns": ["node_modules/"]
 }
