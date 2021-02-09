@@ -1,19 +1,18 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  margin: 0 auto;
   display: flex;
+  min-height: 50vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 0 5rem 0;
-  @media (max-width: 620px){
-    margin-right: 5rem;
-  }
 `;
 
 export const TimeLine = styled.div`
-  display: block;
-  padding-left: 150px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 155px;
   position: relative;
   &:before {
     content: '';
@@ -52,13 +51,11 @@ export const Description = styled.p`
 
 export const Item = styled.div`
   color: #000;
-  padding: 50px 40px;
-  -webkit-box-sizing: border-box;
+  padding: 50px 35px;
   box-sizing: border-box;
   position: relative;
   &:before {
     position: absolute;
-    top: 55px;
     font-size: 16px;
   }
   &:after {

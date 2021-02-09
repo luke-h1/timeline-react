@@ -5,6 +5,7 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
+      <h1 style={{ textAlign: "center" }}>Timeline component react</h1>
       <Timeline />
     </>
   );
